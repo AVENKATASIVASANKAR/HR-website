@@ -62,12 +62,14 @@ padding:3%;
 }
 .third-row{
     padding: 3%;
-  
+    position:relative;
+    z-index:1;
 }
 .cds{
     text-align: center;
     position:absolute;
     padding-left: 10%;
+    z-index:2;
 }
 .body{
     margin-right: 5%;
@@ -113,12 +115,6 @@ text-align: center;
 .human{
     background-color:#2D9CDB;
 }
-.copyright2{
-    margin-left: 50%;
-}
-.copyright{
-    padding-top: 15%;
-}
 #totalex1{
     padding-left: 10%;
     padding-right: 3%;
@@ -149,13 +145,20 @@ text-align: center;
 .image-whitespace{
     line-height: 1rem;
 }
+.copy{
+    margin-top:3%;
+    padding:3%;
+}
+.pad{
+    padding:3%;
+}
  </style>
 </head>
 <body>
     <div class="background" style="background-image: url('https://s3-alpha-sig.figma.com/img/cdc2/79ef/207e6a0017e00cf1a46b9e3be35a1bed?Expires=1646006400&Signature=IzgaVqax3~J50ComRZbYhz-HDAyj4B9SbS-KETb5HbEKnKbZh8SQQ9vb~Wci1zg6SLcfZPhdevZBDsONslC-0c0t1SiwmnnHcCxe6L1jfv1KH5eUxQwLWo4KJYXkVl8O7i83kbvKfKTa81-adZwee8VHFiQZNsB6BhhmvgBsmgzkr1lZkaAzJho98lqw3Qxt~oYHBkQ3jWqjRSypDiw4cDMg-~pEWYHGruL0jVWE24tm3w30yY3lVNlEm2BEfQRC9Y7gZRthon32wH~5-bR2vWcDHHsF6POyCpVs8c0IfqtRw9LWBo1ctSK8N-LV2OTbVieO0NdYoFQzT0v~w~h1QA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');">
 
     <!--first tab level-->
-    <div class="row firstdiv">
+    <div class="row firstdiv text-white">
         <p class="col-lg-4 first-row">Email Address : companies@gmail.com</p>
         <p clas="col-lg-4 first-row">Address : D-65/275 Lahartara Buliya Varanasi- 221002</p>
         <span class="col-lg-4 first-row icons">
@@ -191,7 +194,7 @@ text-align: center;
     <div class="row third-row">
         <div class="text col-lg-6">
         <h4 class="text-white">Hr us all about people</h4>
-       <strong> <h1 >we understand your needs better.</h1></strong>
+       <strong> <h1 class="text-white" >we understand your needs better.</h1></strong>
        <button type="button bt-type-lg" class="btn btn-success">contact us</button>
        </div>
         <img class="side-image col-lg-6" src="https://s3-alpha-sig.figma.com/img/798a/2b0e/004ac225ed0dc575fb1cd2eaec920d3f?Expires=1646006400&Signature=GnCQe-aYo06Z9P6J6hDJ4TWVrdsflAex-p2dOe~C7GIpnHYabSmRsoxm6aFzd0rND5K0mHR75CL0n098-urhJSAS39wzzW4zadclsfHVkjQR~OnR0x2dHAJhLCH7gYLYNbQMHqQEPQj74wmyaGfI8QkSw6L7Ko4RTMorLjbPLiOyKLVehLMhbi2STKQrEw9R9GdGjA74jEcqiSAmrFwX040AohB9cQGr-b1nx1s3onX2ty9UqhLg0OMbFrRHnHQ-SvLRAZSPBOHIn~kd~qefI92I2nZXpEjnjVEhmCwcFqMg9C3~P9npLk60Xc5omyOPdnoGTiqxPKbpSDK70KPZOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA">
@@ -293,7 +296,7 @@ text-align: center;
                     <div class="col-lg-6">
                         <label>OUR SERVICES</label>
                         <h2>Deliver Outsourced</h2>
-                        <a href="">HR service's</a>
+                        <h1><a href="">HR service's</a></h1>
                        <small> VIEW ALL SERVICES</small>
                     </div>
                     <div class="col-lg-6">
@@ -478,9 +481,14 @@ text-align: center;
                                 </ul>
                             </div>
 
-<BR>                           
+<BR>       
+    <div class="row copy">
+        <div class="col-lg-6">                   
      <P class="copyright1 copyright">Copyright © 2021 All Rights Reserved.</P>
-                            <P CLASS="copyright2 copyright">Privacy & Policy Conditions Refund Policy</P>
+             </div>               
+             <div class="col-lg-6"><P CLASS="copyright2 copyright">Privacy & Policy Conditions Refund Policy</P>
+            </div>            
+            </div>
                         </div>
                     </section>
                 </body>               
