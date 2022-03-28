@@ -165,28 +165,29 @@ text-align: center;
     .first-cod{
         width:200px;
        position:relative;
-       top:35%;
-       right:5%;
+   
+         top:260%;
+        right:7%;
         
     }
     .second-cod{
         width:200px;
         position:relative;
-        top:35%;
-        right:5%;
+        top:155%;
+        left:50%;
     }
     .third-cod{
         width:200px;
         position:relative;
-        top:35%;
-        right:5%;
+        top:155%;
+        right:7%;
     }
     .fourth-cod{
         width:200px;
-        
         position:relative;
-        top:35%;
-        right:5%;
+        top:60%;
+        left:50%;
+        
     }
     .undercard{
         height:500px;
