@@ -122,4 +122,46 @@ text-align: center;
 .pad{
     padding:3%;
 }
+@media only screen and (max-width: 486px) {
+    .first-cod{
+        width:200px;
+       position:relative;
+       top:35%;
+       right:5%;
+        
+    }
+    .second-cod{
+        width:200px;
+        position:relative;
+        top:35%;
+        right:5%;
+    }
+    .third-cod{
+        width:200px;
+        position:relative;
+        top:35%;
+        right:5%;
+    }
+    .fourth-cod{
+        width:200px;
+        
+        position:relative;
+        top:35%;
+        right:5%;
+    }
+    .undercard{
+        height:500px;
+    }
+    .right-undercard-para{
+        margin-top: 65%;
+    }
+    .left-undercard-para{
+        margin-top:30%;
+    }
+    .second-layer{
+        font-size: large;
+    }
+
+}
+
 
