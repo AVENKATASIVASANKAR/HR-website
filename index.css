@@ -42,6 +42,7 @@ padding:3%;
     bottom: -40%;
     padding-left: 10%;
     z-index:1;
+    margin-right: 10%;
 }
 .body{
     margin-right: 5%;
@@ -122,7 +123,40 @@ text-align: center;
 .pad{
     padding:3%;
 }
-
+.second-first-id{
+    color: white;
+}
+.second-second-tab{
+    color: #2D9CDB;
+}
+.second-third-id{
+    color: white;
+}
+.second-fourth-id{
+    color: white;
+}
+.second-fifth-id{
+    color: white;
+}
+.second-sixth-id{
+    color: white;
+}
+.first-cod{
+    width:auto;
+    height:100%;
+    
+}
+.second-cod{
+    width:auto;
+    height:100%;
+}
+.third-cod{
+    width:autp;
+   
+}
+.fourth-cod{
+    width:auto;
+}
 
 
 
@@ -163,8 +197,24 @@ text-align: center;
     .left-undercard-para{
         margin-top:30%;
     }
-    .second-layer{
-        font-size: large;
+    
+    .second-first-id{
+        color: white;font-size: large;
+    }
+    .second-second-tab{
+        color: #2D9CDB;font-size: large;
+    }
+    .second-third-id{
+        color: white;font-size: large;
+    }
+    .second-fourth-id{
+        color: white;font-size: small;
+    }
+    .second-fifth-id{
+        color: white;font-size: small;
+    }
+    .second-sixth-id{
+        color: white;font-size: 40px;
     }
 
 }
